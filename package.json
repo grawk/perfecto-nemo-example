@@ -1,0 +1,30 @@
+{
+  "name": "perfecto-nemo-example",
+  "version": "1.0.0",
+  "description": "PerfectoMobile + NemoJS webdriver example",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grawk/perfecto-nemo-example.git"
+  },
+  "keywords": [
+    "NemoJS",
+    "nodejs",
+    "PerfectoMobile",
+    "webdriver"
+  ],
+  "author": "Matt Edelman <mattedelman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grawk/perfecto-nemo-example/issues"
+  },
+  "homepage": "https://github.com/grawk/perfecto-nemo-example#readme",
+  "dependencies": {
+    "nemo": "^1.0.6",
+    "nemo-perfectomobile": "^1.0.1",
+    "nemo-view": "^1.2.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "driver": {
+    "builders": {
+      "usingServer": ["env:PERFECTO_SERVER"],
+      "withCapabilities": [{
+        "browserName":     "env:PERFECTO_BROWSER",
+        "user":            "env:PERFECTO_USER",
+        "password":        "env:PERFECTO_PW",
+        "deviceName":      "env:PERFECTO_DEVICE",
+        "platformVersion": "env:PERFECTO_VERSION",
+        "platformName":    "env:PERFECTO_PLATFORM"
+      }]
+    }
+  },
+  "plugins": {
+    "view": {
+      "module": "nemo-view"
+    },
+    "perfectomobile": {
+      "module": "nemo-perfectomobile",
+      "arguments": ["path:report"]
+    }
+  },
+  "data": {
+    "imagesUrl": "https://images.google.com/",
+    "searchUrl": "http://www.google.com"
+  }
+}
